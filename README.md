@@ -1,7 +1,12 @@
 # Chauffard
 
-Web app pour signaler les automobilistes dangereux en quelques taps, sans rien écrire.
+Web app pour signaler les automobilistes dangereux en quelques taps.
 Carte des signalements en direct, fiches « chauffards » pour les plaques signalées plusieurs fois.
+
+Le signalement se fait en 5 étapes : **adresse de l'incident** (recherche
+géocodée ou « Utiliser ma position ») + **date/heure** (défaut : maintenant) →
+comportements (mots-clés) → plaque (pavé tactile) → type de véhicule → récap.
+L'onglet **Carte** affiche toutes les épingles sur un fond OpenStreetMap.
 
 ## Fichiers
 
